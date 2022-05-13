@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Roboto+Slab:wght@900&display=swap');
+html,*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+  height: 100vh;
+  /* body: 100%; */
+  background-color: aqua;
+}
+.btn {
+  width: 66px;
+  font-family: 'Ingrid Darling', cursive;
+  font-family: 'Roboto Slab', serif;
+  padding: 20px;
+  margin: 0px 3px;
+  border-radius: 8px 8px;
+  cursor: pointer;
+  border: 3px solid black;
+  font-size: medium;
+}
+.btn:hover {
+  background-color: burlywood;
+  color: blue;
+}
+.row {
+  margin: 9px 0;
+}
+.row input {
+  font-family: 'Ingrid Darling', cursive;
+  font-family: 'Roboto Slab', serif;
+  margin: 5px;
+  padding: 15px 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: medium;
+}
+
